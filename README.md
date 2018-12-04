@@ -3,10 +3,10 @@
 Python3
 
 # Required Packages
-Pandas
-Numpy
-Scikit-Learn
-Matplotlib
+Pandas, 
+Numpy, 
+Scikit-Learn, 
+Matplotlib, 
 os
 
 # How to run
