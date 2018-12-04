@@ -97,7 +97,7 @@ plt.show() # draw a plot illustrating relationship of model performance and numb
 #%%
 # feature_position = np.where(rfecv.ranking_<=1)[0] # choose features whose tanking<=1
 feature_position = [  5,  10, 12,  15,  16,  22,  63,  64,  65,  75,   78,  83,  84,  85,  86,  89,  91,  94,
- 95,  99, 102, 111, 112, 114]  # this is best position I obtained
+ 95,  99, 102, 111, 112, 114]  # this is position of best features  I obtained, you can use last code and comment this code to change position
 train_X_selected = train_X_num[:,feature_position] 
 test_X_selected=test_X_num[:,feature_position] 
 print(feature_position)
