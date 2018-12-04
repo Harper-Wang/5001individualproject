@@ -24,7 +24,7 @@ randomstate = 12
 modelrandomstate = 2
 # feature engineering 
 def transform1(x):
-    # drop some irrevelant features according to feature description on website: https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_classification.html
+    # drop some irrevelant features according to visualization results and feature description on website: https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_classification.html
     x = x.drop(columns=['random_state','scale'])
 
     # categorical feature encode
